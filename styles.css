@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:#808080;
+    color:#FFFFFF;
+}
+
+.chat-app {
+    display: flex;
+    height: 100vh;
+}
+
+.left-pane {
+    width: 25%;
+    background-color:#999999;
+    padding: 20px;
+    box-shadow: 2px 0px 5px rgba( );
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.new-chat-button {
+    width: 50%;
+    padding: 10px;
+    background-color:#626567;    
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.hide-left-pane-button {
+    width: 15%;
+    background-color: transparent;
+    border: #626567;
+    cursor: pointer;
+}
+
+.hide-left-pane-button {
+    width: 15%;
+    padding: 5px 10px;
+    background-color: #A6ACAF;
+        color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.chat-list {
+    overflow-y: auto;
+    max-height: 70vh;
+}
+
+.chat-item {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+}
+
+.right-pane {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+    background-color: #000000;
+    margin:right;
+}
+.top-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width=50%
+    margin-bottom: 50px;
+}
+.floating-button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Center the buttons vertically */
+    width: 100%;
+    height: 100%;
+}
+
+.floating-button {
+    padding: 10px;
+    background-color: #999999;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px; /* Add margin between buttons */
+}
+
+.message-display {
+    height: 60vh;
+    border: 1px solid #000000
+         overflow-y: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #222;
+}
+
+.input-box {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.input-box input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.send-button {
+    padding: 10px 20px;
+    background-color:#626567;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
